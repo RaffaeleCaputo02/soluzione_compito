@@ -10,9 +10,10 @@ namespace soluzione_compito
     {
         static void Main(string[] args)
         {
-            string risultato;
-            int num = 255;
-            risultato = "";
+            string risultato="";
+            int num;
+            Console.WriteLine("Inserisci un numero");
+            num = Convert.ToInt32(Console.ReadLine());
             while(num>1)
             {
                 int resto = num % 2;
